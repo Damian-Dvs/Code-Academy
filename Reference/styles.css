@@ -1,15 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
     position: fixed;
     top: 0;
-    border: 2px solid rgb(50, 55, 204);
     width: 100%;
-    margin: 0 auto;
-    padding: 2px;
 }
 
 ul {    
