@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Main Heading-->
+    <header>
+        <h1>HTML Reference Guide</h1>
+    </header>
+
+    <!--Table of Contents-->
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <section class="html-topics">
+            <h3>Html</h3>
+            <ul>
+                <li><a href="#standard">Standard HTML Elements</a></li>
+                <li><a href="#semantic">Semantic HTML</a></li>
+                <li><a href="#table">Table Tags</a></li>
+            </ul>
+        </section>
+        <section class="css-topics">
+            <h3>CSS</h3>
+            <ul>
+                <li><a href="#css-selectors">CSS selectors</a></li>
+                <li><a href="#css-box-model">Box Model</a></li>
+                <li><a href="#css-display-positioning">Display and Positioning</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <!--Standard HTML Elements-->
+
+    <section id="standard">
+        <h2>Standard HTML Elements</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;a&gt;</span></td>
+                    <td>Anchor</td>
+                    <td>Defines a hyperlink, which is used to link from one page to another.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;p&gt;</span></td>
+                    <td>Paragraph</td>
+                    <td>Defines a paragraph.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;h1&gt;</span></td>
+                    <td>Heading 1</td>
+                    <td>Defines the largest heading.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;h2&gt;</span></td>
+                    <td>Heading 2</td>
+                    <td>Defines a subheading.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;img&gt;</span></td>
+                    <td>Image</td>
+                    <td>Embeds an image in an HTML page.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;ul&gt;</span></td>
+                    <td>Unordered List</td>
+                    <td>Defines an unordered list.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;li&gt;</span></td>
+                    <td>List Item</td>
+                    <td>Defines a list item.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;div&gt;</span></td>
+                    <td>Division</td>
+                    <td>Defines a section in a document.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>   
+    
+    <!--Semantic HTML-->
+
+    <section id="semantic">
+        <h2>Semantic HTML</h2>
+        <tbody>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">&lt;header&gt;</span></td>
+                        <td>Header</td>
+                        <td>Represents introductory content, typically a group of introductory or navigational aids.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;nav&gt;</span></td>
+                        <td>Navigation</td>
+                        <td>Defines a section of a page that links to other pages or to parts within the page: a section
+                            with navigation links.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;main&gt;</span></td>
+                        <td>Main Content</td>
+                        <td>Specifies the main content of a document. Content that is directly related to or expands
+                            upon the central topic of a document.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;section&gt;</span></td>
+                        <td>Section</td>
+                        <td>Defines a section in a document, such as chapters, headers, footers, or any other sections
+                            of the document.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;article&gt;</span></td>
+                        <td>Article</td>
+                        <td>Defines independent, self-contained content which can be independently distributed or
+                            reused.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;aside&gt;</span></td>
+                        <td>Aside</td>
+                        <td>Defines some content loosely related to the page content. If it is removed, the remaining
+                            content still makes sense.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;footer&gt;</span></td>
+                        <td>Footer</td>
+                        <td>Defines a footer for a document or section. It typically contains authorship information,
+                            copyright data, links to related documents, and so on.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;figure&gt;</span></td>
+                        <td>Figure</td>
+                        <td>Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.,
+                            often with a caption (<code>&lt;figcaption&gt;</code>).</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;figcaption&gt;</span></td>
+                        <td>Figure Caption</td>
+                        <td>Defines a caption for a <code>&lt;figure&gt;</code> element. It is used to describe the rest
+                            of the contents of the <code>&lt;figure&gt;</code> element.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;time&gt;</span></td>
+                        <td>Time</td>
+                        <td>Represents a specific period in time. It may include the datetime attribute to translate
+                            dates into machine-readable format.</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <!-- Table Tags-->
+
+    <section id="table">
+        <h2>Table Tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">&lt;table&gt;</span>
+                    </td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;thead&gt;</span>
+                    </td>
+                    <td>Table Head</td>
+                    <td>TThe set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;tbody&gt;</span></td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;tr&gt;</span></td>
+                    <td>Table Row</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;td&gt;</span></td>
+                    <td>Table Data</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;tfoot&gt;</span></td>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- CSS Selectors Table-->
+
+    <section id="css-selectors">
+        <h2>CSS Selectors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Selector</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.class</td>
+                    <td>Selects elements with the specified class.</td>
+                </tr>
+                <tr>
+                    <td>#id</td>
+                    <td>Selects the element with the specified id.</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Selects all elements.</td>
+                </tr>
+                <tr>
+                    <td>element</td>
+                    <td>Selects all elements of the specified type.</td>
+                </tr>
+                <tr>
+                    <td>element, element</td>
+                    <td>Selects all specified elements.</td>
+                </tr>
+                <tr>
+                    <td>element element</td>
+                    <td>Selects all elements inside a specified element.</td>
+                </tr>
+                <tr>
+                    <td>element > element</td>
+                    <td>Selects direct children of a specified element.</td>
+                </tr>
+                <tr>
+                    <td>element + element</td>
+                    <td>Selects an element immediately followed by another.</td>
+                </tr>
+                <tr>
+                    <td>element ~ element</td>
+                    <td>Selects elements preceded by a specific element.</td>
+                </tr>
+                <tr>
+                    <td>[attribute]</td>
+                    <td>Selects elements with a specified attribute.</td>
+                </tr>
+                <tr>
+                    <td>:pseudo-class</td>
+                    <td>Selects elements in a specific state (e.g., :hover).</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+
+    <!-- Box Model Table-->
+
+    <section id="css-box-model">
+        <h2>CSS Box Model</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Component</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Content</td>
+                    <td>The actual content of the box, where text and images appear.</td>
+                </tr>
+                <tr>
+                    <td>Padding</td>
+                    <td>Space between the content and the border.</td>
+                </tr>
+                <tr>
+                    <td>Border</td>
+                    <td>Encloses the padding and content.</td>
+                </tr>
+                <tr>
+                    <td>Margin</td>
+                    <td>Outermost layer, space between the border and other elements.</td>
+                </tr>
+                <tr>
+                    <td>Width and Height</td>
+                    <td>Defines the width and height of the content area.</td>
+                </tr>
+                <tr>
+                    <td>Box-Sizing</td>
+                    <td>Defines how the width and height are calculated: border-box or content-box.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+
+    <!-- Display and Positioning-->
+
+    <section id="css-display-positioning">
+        <h2>Display and Positioning</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>display: block;</td>
+                    <td>Elements render as a block, taking up the full width available.</td>
+                </tr>
+                <tr>
+                    <td>display: inline;</td>
+                    <td>Elements render inline with text and other elements.</td>
+                </tr>
+                <tr>
+                    <td>display: inline-block;</td>
+                    <td>Elements render inline but respect box model properties.</td>
+                </tr>
+                <tr>
+                    <td>display: flex;</td>
+                    <td>Enables a flex context for direct children.</td>
+                </tr>
+                <tr>
+                    <td>display: grid;</td>
+                    <td>Enables a grid layout for direct children.</td>
+                </tr>
+                <tr>
+                    <td>position: relative;</td>
+                    <td>Element is positioned relative to its normal position.</td>
+                </tr>
+                <tr>
+                    <td>position: absolute;</td>
+                    <td>Element is positioned absolutely to its first positioned ancestor.</td>
+                </tr>
+                <tr>
+                    <td>position: fixed;</td>
+                    <td>Element is fixed relative to the browser window.</td>
+                </tr>
+                <tr>
+                    <td>position: sticky;</td>
+                    <td>Element is positioned based on the user's scroll position.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+
+
+    </section>
+    <!--footer-->
+
+    <footer>
+        <p>HTML and CSS Reference Guide - Damian Davies - 2023</p>
+    </footer>
+    
+</body>
+
+</html>
