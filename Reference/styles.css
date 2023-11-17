@@ -80,3 +80,9 @@ td {
     background-color: lightgrey;
     color: black;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+}

@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-fixed {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    top: 0px;
+    background-color: white;
+}
+
+.nav-fixed a {
+    font-family: 'Share Tech';
+
+    color: black;
+    text-decoration: none;
+    padding: 60px;
+    color: #051532;
+}
+
+.nav-fixed a:hover {
+    color: #5f6060;
+}
+
+.banner {
+    position: relative;
+    top: 50px;
+    height: 300px;
+    width: 98%;
+    margin: 0 auto;
+    background-image: url("codecore.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #051532;
+    border-radius: 5px;
+}
+
+.content-container {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content-container p {
+    background-color: rgba(255, 255, 255,0.7);
+    padding: 20px;
+    border: 1px solid rgba(141, 140, 140, 0.3);
+    text-align: center;
+    width: 98%;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}
+
+.content-container h2 {
+    font-family: 'Share Tech';
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: hsla(219, 82%, 11%);
+    color: white;
+    border-radius: 5px;
+}
+
+footer small {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+footer {
+    width: 100%;
+}
+
+.city {
+    display: flex;
+    width: 98%;
+    margin: 10px auto;
+    align-items: center;
+    border-radius: 20px;
+    max-height: 500px;
+}
